@@ -19,13 +19,13 @@ Architecture Overview
 
 HireBridge follows a modern, decoupled architecture.
 
-Frontend (UI Layer):
+Frontend (UI Layer)
 The frontend is built using React with a component-based architecture. This allows the application to deliver fast, responsive, and interactive user interfaces.
 
-Backend (API Layer):
+Backend (API Layer)
 The backend is powered by Express and provides RESTful APIs for session management, routing, and system health monitoring.
 
-Data Flow:
+Data Flow
 The frontend and backend communicate through REST APIs, ensuring scalability, reliability, and efficient state management.
 
 Key Features
@@ -55,45 +55,33 @@ Architecture: REST API and component-based architecture
 Project Structure
 
 HireBridge
-backend
-
-server.js
-
-routes
-
-controllers
-
-models
-
-middleware
-
-lib
-
-frontend
-
-src
-
-components
-
-pages
-
-hooks
-
-api
-
-lib
-
-data
-
-public
-
-vite.config.js
+│
+├── backend
+│ ├── server.js
+│ ├── routes
+│ ├── controllers
+│ ├── models
+│ ├── middleware
+│ └── lib
+│
+└── frontend
+├── src
+│ ├── components
+│ ├── pages
+│ ├── hooks
+│ ├── api
+│ ├── lib
+│ └── data
+│
+├── public
+└── vite.config.js
 
 Getting Started
 
 Prerequisites
 
 Make sure the following are installed on your system:
+
 Node.js
 npm or yarn
 
