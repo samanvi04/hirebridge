@@ -66,7 +66,7 @@ HireBridge
 │
 └── frontend
 ├── src
-│ ├── components
+│ ├── component
 │ ├── pages
 │ ├── hooks
 │ ├── api
