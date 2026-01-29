@@ -4,23 +4,18 @@
 <p align="center">
   <img alt="Build" src="https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge">
   <img alt="Issues" src="https://img.shields.io/badge/Issues-0%20Open-blue?style=for-the-badge">
-  <img alt="Contributions" src="https://img.shields.io/badge/Contributions-Welcome-orange?style=for-for-the-badge">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
 </p>
 <!-- 
   **Note:** These are static placeholder badges. Replace them with your project's actual badges.
   You can generate your own at https://shields.io
 -->
 
-## 📑 Table of Contents
 - [⭐ Overview](#-overview)
 - [✨ Key Features](#-key-features)
 - [🛠️ Tech Stack & Architecture](#-tech-stack--architecture)
 - [📁 Project Structure](#-project-structure)
 - [🚀 Getting Started](#-getting-started)
 - [🔧 Usage](#-usage)
-- [🤝 Contributing](#-contributing)
-- [📝 License](#-license)
 
 ---
 
@@ -300,87 +295,12 @@ This endpoint is crucial for the seamless navigation experience provided by the 
 
 ---
 
-## 🤝 Contributing
 
-We welcome contributions to improve HireBridge! Your input helps make this project better for everyone involved in remote technical interviewing and collaborative coding.
 
-### How to Contribute
 
-To contribute, please follow these standard open-source steps:
 
-1. **Fork the repository** - Click the 'Fork' button at the top right of this page to create your personal copy.
-2. **Create a feature branch** - Base your work off the `main` or `develop` branch (depending on current project standard). Use clear, descriptive names.
-   ```bash
-   git checkout -b feature/integrate-new-stream-feature
-   ```
-3. **Make your changes** - Focus on clear improvements to the code, comprehensive updates to documentation, or implementation of new, verified features.
-4. **Test thoroughly** - While explicit test scripts were not detected, please ensure all existing functionality (especially the core API routes and UI components) works as expected after your modifications.
-   ```bash
-   # Ensure manual testing of the UI and API endpoints is performed
-   # (e.g., check /health endpoint response after backend changes)
-   ```
-5. **Commit your changes** - Write clear, descriptive commit messages following the Conventional Commits specification (e.g., `feat:`, `fix:`, `docs:`).
-   ```bash
-   git commit -m 'Feat: Add support for enhanced useStreamClient hook logic'
-   ```
-6. **Push to your branch**
-   ```bash
-   git push origin feature/integrate-new-stream-feature
-   ```
-7. **Open a Pull Request** - Submit your changes for review by creating a pull request targeting the main repository's base branch.
 
-### Development Guidelines
 
-Adhering to these guidelines ensures a smooth integration process and maintains code quality:
-
-- ✅ Follow the existing code style and conventions found throughout the `frontend` and `backend` directories.
-- 📝 Add comments for complex logic, particularly within controllers (`sessionController.js`) and hooks (`useStreamClient.js`).
-- 🧪 Write tests for new features and bug fixes (as testing framework integration evolves).
-- 📚 Update documentation for any changed functionality or newly introduced dependencies.
-- 🔄 Ensure backward compatibility whenever possible, especially when modifying core models (`User.js`, `Session.js`).
-- 🎯 Keep commits focused and atomic, addressing a single issue or feature per commit.
-
-### Ideas for Contributions
-
-We're looking for help across the entire application stack:
-
-- 🐛 **Bug Fixes:** Identify and resolve issues within the existing controllers, routes, or UI components.
-- ✨ **New Features:** Implement requested features to enhance the collaborative experience, leveraging components like `ChatController.js` or improving session management logic.
-- 📖 **Documentation:** Improve this README, create setup guides, or document the specific usage of complex components like `VideoCallUI.jsx`.
-- 🎨 **UI/UX:** Enhance the user interface, improving the responsiveness and flow of pages such as `DashboardPage.jsx` and `ProblemsPage.jsx`.
-- ⚡ **Performance:** Optimize the Express backend logic or React component rendering to ensure maximum speed during real-time sessions.
-
-### Code Review Process
-
-- All submissions require review by maintainers before merging.
-- Maintainers will provide constructive feedback focused on code quality, performance, and adherence to project architecture.
-- Changes may be requested before final approval.
-- Once approved, your Pull Request will be merged, and you will be credited as a contributor.
-
-### Questions?
-
-Feel free to open an issue for any questions regarding the codebase, contribution process, or potential feature ideas. We are here to help you get started!
-
----
-
-## 📝 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for complete details.
-
-### What this means:
-
-The MIT License is a permissive free software license that places minimal restrictions on reuse.
-
-- ✅ **Commercial use:** You can use this project commercially, incorporating it into proprietary systems or products.
-- ✅ **Modification:** You can modify the source code, tailoring it to your specific needs.
-- ✅ **Distribution:** You can distribute this software, whether in its original or modified form.
-- ✅ **Private use:** You can use this project privately for internal development or testing.
-- ⚠️ **Liability:** The software is provided "as is," without warranty of any kind. The project owners are not liable for any damages arising from its use.
-- ⚠️ **Trademark:** This license does not grant rights to use the project's trade names, trademarks, or service marks.
-
----
-
-<p align="center">Made with ❤️ by the HireBridge Team</p>
 <p align="center">
   <a href="#">⬆️ Back to Top</a>
 </p>
