@@ -7,7 +7,7 @@ HireBridge is a dynamic, full-stack web application designed to streamline the r
 
 The core objective of HireBridge is to eliminate fragmented communication and tooling by consolidating essential components such as video conferencing, real-time code editing, and challenge delivery into a coherent, high-quality user experience.
 
-The Problem
+The Problem is
 
 Remote technical interviews are often conducted using multiple disconnected tools. Interviewers rely on separate video conferencing platforms, shared editors, and manual tracking systems. This fragmentation causes inefficiency, time loss, poor collaboration, and inaccurate candidate evaluation.
 
